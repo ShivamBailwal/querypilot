@@ -1,0 +1,27 @@
+# Secrets
+.env
+
+# Virtual environments
+.venv/
+venv/
+
+# Generated database (rebuild with: python -m database.init_db)
+data/*.db
+data/*.db-journal
+
+# Private copies of user-uploaded databases (deleted on disconnect)
+data/uploads/
+
+# Python / tooling caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit / editors / OS
+.streamlit/secrets.toml
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+# Versions verified together on Python 3.12.10 (Windows) — October 2026.
+# Agent orchestration + LLM
+langgraph==1.2.15
+langchain-core==1.6.11
+langchain-google-genai==4.4.2
+pydantic==2.14.1
+
+# Database + SQL safety
+SQLAlchemy==2.1.4
+sqlglot==30.23.0
+
+# UI
+streamlit==1.66.0
+pandas==3.0.6
+altair==6.3.0          # charts (already a Streamlit dependency; imported directly)
+
+# Config + tests
+python-dotenv==1.2.4
+pytest==9.1.1

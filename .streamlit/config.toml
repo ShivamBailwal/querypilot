@@ -1,0 +1,16 @@
+# QueryPilot theme: dark navy surfaces, violet primary, cyan links.
+# The chart palette was validated (colorblind separation, lightness band, contrast)
+# against backgroundColor and secondaryBackgroundColor below. If you change either
+# surface, re-validate the palette and update analytics/charts.py to match.
+[theme]
+base = "dark"
+primaryColor = "#8568db"
+backgroundColor = "#0e131f"
+secondaryBackgroundColor = "#151c2c"
+textColor = "#e4e7ee"
+linkColor = "#3fb6cf"
+borderColor = "#242d40"
+showWidgetBorder = true
+baseRadius = "medium"
+dataframeHeaderBackgroundColor = "#151c2c"
+chartCategoricalColors = ["#8568db", "#139cb6", "#cf6f19", "#c74c8e", "#3a7bcb", "#b18e15"]
